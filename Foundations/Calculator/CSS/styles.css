@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+}
+.allClear,
+.deleteBtn,
+.point {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    padding: 6px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 4px black;
+}
+
+.number {
+    background-color: orange;
+    display: flex;
+    border: 1px solid orange;
+    padding: 6px;
+}
+
+.operation {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    padding: 6px;
+}
+
+.inputHere {
+    padding: 6px;
+    background-color: lightgrey;
+    border: none;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+    padding: 3px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.operations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+
+.inputHere:focus {
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+    outline: none;
+}
+
+.container {
+    border: 3px solid darkred;
+    background-color: bisque;
+    padding: 6px;
+    border-radius: 6px;
+}

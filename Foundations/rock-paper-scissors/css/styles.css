@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 12px;
+    padding: 6px;
+}
+
+.winner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.round-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: red;
+}
+
+button {
+    border: none;
+    border-radius: 23px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+h1 {
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+}

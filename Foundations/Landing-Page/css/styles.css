@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+/* This is the css for the head/hero section of the page */
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    top: 10px;
+    left: 20px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    top: 10px;
+    right: 20px;
+    position: absolute;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 250px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* This is the css for the information section of the page */
+.info {
+    text-align: center;
+    padding: 50px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* This is the css for the quote section of the page */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 900;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 350px;
+}
+
+/* This is the css for the action section of the page */
+.cta-section {
+    background-color: #3882F6;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 50px 50px 50px 450px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.cta-section h2 {
+    margin-right: 200px;
+}
+
+.cta-section button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* This is the css for the footer of the page */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+}
